@@ -1,5 +1,5 @@
 # base node image
-FROM node:16-bullseye-slim as base
+FROM node:16-bullseye-slim@sha256:30ec224b4c35a768e038674444d0718494a7d8847c96ee73a8d3db795135b4c9 as base
 
 # set for base and all layer that inherit from it
 ENV NODE_ENV production
